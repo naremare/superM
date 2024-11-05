@@ -62,7 +62,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter basename="/superM">
+    <BrowserRouter>
       <Navbar cart={cart} />
       <div className="container">
         <Routes>
