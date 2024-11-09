@@ -62,7 +62,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter basename="/naremare">
+    <BrowserRouter>
       <Navbar cart={cart} />
       <div className="container">
         <Routes>
